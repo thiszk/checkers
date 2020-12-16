@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Checkers.css">
+    <link rel="stylesheet" href="Pieces.css">
+</head>
+<body>
+    <script src="Checkers.js"></script>
+    <script src="Pieces.js"></script>
+    <script src="rules.js"></script>
+
+    <h1>Checkers</h1>
+
+   <p>Select Board Size<br></p>
+
+    <input type="button" id="size8"        value='8x8'      onclick="getBoardSize(8,boardSize)" > 
+    <input type="button" id="size10"    value='10x10'    onclick="getBoardSize(10,boardSize)" >
+    <br>
+
+    <p><br></p>
+
+    <input type="button" id="setPieces"        value='Set Pieces'      onclick="createPieces(boardSize)" > 
+    <input type="button" id="Start"    value='Start'    onclick="start('red',boardSize)" >
+    <br> <br>
+
+
+<div id="board" class="board"> </div>
+</body> 
+
+</html>

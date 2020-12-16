@@ -1,0 +1,65 @@
+
+.blue{
+background-color: darkblue;
+position: absolute;
+top: 50%;
+left: 50%;
+margin: -20px -20px -20px -20px;
+}
+
+.red{
+background-color: darkred;
+position: absolute;
+top: 50%;
+left: 50%;
+margin: -20px -20px -20px -20px;
+}
+
+.round{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 35px;
+}
+.normal{
+    text-shadow: 2px 2px 3px #000000;
+    box-shadow: 1px 1px;
+
+}
+
+.special{
+    text-shadow: 2px 2px 3px #000000;
+    box-shadow: 1px 1px;
+
+}
+
+.empty{
+    background-color :#5f5f5f;
+}
+
+.possibleMovement{
+    border-color: deepskyblue;
+    border-style: dotted;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -23px -20px -20px -23px;
+    cursor: pointer;
+}
+
+.movementAllowed{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -20px -20px -20px -20px;
+    cursor: pointer;
+}
+
+.selectedPiece{
+    border-color: lime;
+    border-style: solid ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -23px -20px -20px -23px;
+}
